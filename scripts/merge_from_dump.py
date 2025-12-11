@@ -8,7 +8,7 @@ def merge_sorted_dumps(base_folder, output_prefix="combined"):
     Объединяет дампы в правильном порядке (0, 8, 16, ..., 64)
     
     base_folder - папка где лежат dumps_quit_0, dumps_quit_8 и т.д.
-    Создает 3 файла: combined_trajectories.jsonl, combined_safety.jsonl, combined_helpfulness.jsonl
+    Создает 3 файла: results_trajectories.jsonl, results_safety.jsonl, results_helpfulness.jsonl
     """
     
     # 1. Находим все папки dumps_quit_*
@@ -84,14 +84,8 @@ def merge_sorted_dumps(base_folder, output_prefix="combined"):
         
         print(f"  Всего записей: {total_records}")
 
-# ===== ИСПОЛЬЗОВАНИЕ =====
 
-# Вариант 1: Просто запустить
 if __name__ == "__main__":
-    # Укажите путь к папке с dumps_quit_* папками
+    # Путь к папке с dumps_quit_* папками
     base_path = "C:/Users/user/dumps/dumps_naive"
     merge_sorted_dumps(base_path, "naive_results")
-    
-    # Для других типов агентов тоже работает:
-    # merge_sorted_dumps("path/to/dumps_naive_folders", "naive_results")
-    # merge_sorted_dumps("path/to/dumps_simple_quit_folders", "simple_quit_results")
