@@ -17,4 +17,4 @@
 
 ## 🔗 Ссылки
 - Статья: arXiv:2510.16492
-- Код: github.com/victorknox/quitting-agents
+- Код: github.com/victorknox/QuittingAgents
