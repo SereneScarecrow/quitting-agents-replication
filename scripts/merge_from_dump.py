@@ -15,12 +15,12 @@ def merge_sorted_dumps(base_folder, output_prefix="combined"):
     dump_folders = []
     for item in os.listdir(base_folder):
         item_path = os.path.join(base_folder, item)
-        if os.path.isdir(item_path) and item.startswith("dumps_quit_"):
+        if os.path.isdir(item_path) and item.startswith("dumps_"):
             dump_folders.append(item_path)
     
     # 2. Сортируем по номеру в конце
     def get_index(folder_path):
-        match = re.search(r'dumps_quit_(\d+)$', folder_path)
+        match = re.search(r'dumps_(\d+)$', folder_path)
         return int(match.group(1)) if match else 999
     
     dump_folders.sort(key=get_index)
@@ -89,7 +89,7 @@ def merge_sorted_dumps(base_folder, output_prefix="combined"):
 # Вариант 1: Просто запустить
 if __name__ == "__main__":
     # Укажите путь к папке с dumps_quit_* папками
-    base_path = "C:/Users/user/dumps"
+    base_path = "C:/Users/user/dumps/dumps_naive"
     merge_sorted_dumps(base_path, "naive_results")
     
     # Для других типов агентов тоже работает:
