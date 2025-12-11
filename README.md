@@ -17,7 +17,7 @@
 
 Наши:
 - **naive**: Safety=0.729, Helpfulness=1.343
-- **quit**: Safety=1.179, Helpfulness=1.235
+- **quit**: Safety=1.179, Helpfulness=1.235 (Quit rate: 26.4%)
 
 ## 🔗 Ссылки
 - Статья: arXiv:2510.16492
