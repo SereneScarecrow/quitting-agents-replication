@@ -87,5 +87,5 @@ def merge_sorted_dumps(base_folder, output_prefix="combined"):
 
 if __name__ == "__main__":
     # Путь к папке с dumps_quit_* папками
-    base_path = "C:/Users/user/dumps/dumps_naive"
-    merge_sorted_dumps(base_path, "naive_results")
+    base_path = "C:/Users/user/dumps/dumps_mix_naive"
+    merge_sorted_dumps(base_path, "mix_naive_results")
