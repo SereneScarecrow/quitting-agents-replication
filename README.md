@@ -18,7 +18,7 @@
 
 Наши для Qwen3-8B:
 - **naive**: Safety=0.729, Helpfulness=1.343
-- **simple_quit**: Safety=, Helpfulness= (Quit rate: %)
+- **simple_quit**: Safety=0.900, Helpfulness=1.412 (Quit rate: 0%)
 - **quit**: Safety=1.179, Helpfulness=1.235 (Quit rate: 26.4%)
 
 Наши для Mixtral 8x7B Instruct:
