@@ -22,8 +22,8 @@
 - **quit**: Safety=1.179, Helpfulness=1.235 (Quit rate: 26.4%)
 
 Наши для Mixtral 8x7B Instruct:
-- **naive**: Safety=, Helpfulness=
-- **quit**: Safety=, Helpfulness= (Quit rate: %)
+- **naive**: Safety=0.642, Helpfulness=0.914
+- **quit**: Safety=0.689, Helpfulness=0.853 (Quit rate: 6.9%)
 
 ## 🔗 Ссылки
 - **Статья**: [arXiv:2510.16492](https://www.arxiv.org/pdf/2510.16492)
