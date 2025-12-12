@@ -20,6 +20,7 @@
 - **quit**: Safety=1.179, Helpfulness=1.235 (Quit rate: 26.4%)
 
 ## 🔗 Ссылки
+- [**Презентация**](https://docs.google.com/presentation/d/1srIksSTfdo7NaYftoyox6RjmeBFFzXkoB1asWFuPlas/edit?slide=id.p#slide=id.p)
 - **Статья**: [arXiv:2510.16492](https://www.arxiv.org/pdf/2510.16492)
 - **Код**: [github.com/victorknox/QuittingAgents](https://github.com/victorknox/QuittingAgents)
 - **Архив с raw данными**: [Google Drive](https://drive.google.com/file/d/1vLHVuiI8ZY5uJWX4VzEF8-FP10MT1xwk/view?usp=sharing)
