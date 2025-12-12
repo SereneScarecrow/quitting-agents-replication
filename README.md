@@ -3,7 +3,7 @@
 ## 📋 О проекте
 Наша задача заключалась в воспроизведении исследования, изучавшего механизм "осознанного отказа" (selective quitting) для повышения безопасности LLM-агентов в многозадачных сценариях.
 
-## 💡 [Презентация](https://docs.google.com/presentation/d/1srIksSTfdo7NaYftoyox6RjmeBFFzXkoB1asWFuPlas/edit?slide=id.p#slide=id.p)
+|:💡 [Презентация](https://docs.google.com/presentation/d/1srIksSTfdo7NaYftoyox6RjmeBFFzXkoB1asWFuPlas/edit?slide=id.p#slide=id.p) 💡:|
 
 ## 🔬 Конфигурации
 - **Модели**: Qwen3-8B, Mixtral 8x7B Instruct
