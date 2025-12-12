@@ -12,10 +12,10 @@
 ## 📊 Результаты
 По данным статьи для Qwen3-8B:
 - **naive**: Safety=0.891, Helpfulness=1.066
-- **simple_quit**: Safety=1.220, Helpfulness=1.107  
-- **quit**: Safety=1.315, Helpfulness=0.936
+- **simple_quit**: Safety=1.220, Helpfulness=1.107 (Quit rate: 3.45%)
+- **quit**: Safety=1.315, Helpfulness=0.936 (Quit rate: 35.17%)
 
-Наши:
+Наши для Qwen3-8B:
 - **naive**: Safety=0.729, Helpfulness=1.343
 - **quit**: Safety=1.179, Helpfulness=1.235 (Quit rate: 26.4%)
 
