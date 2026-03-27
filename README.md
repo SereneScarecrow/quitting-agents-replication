@@ -30,7 +30,7 @@
 - модель не прописывала QUIT, хотя и отказывалась выполнить действие (подсчет quit rate происходил через совпадение подстрок)
 
 ### Тестирование новой модели:
-Наши для Mixtral 8x7B Instruct:
+Наши результаты для Mixtral 8x7B Instruct:
 - **naive**: Safety=0.642, Helpfulness=0.914
 - **quit**: Safety=0.689, Helpfulness=0.853 (Quit rate: 6.9%)
 
