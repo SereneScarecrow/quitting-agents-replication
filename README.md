@@ -21,13 +21,15 @@
 - **simple_quit**: Safety=0.900, Helpfulness=1.412 (Quit rate: 0%)*
 - **quit**: Safety=1.179, Helpfulness=1.235 (Quit rate: 26.4%)
 
-Наши для Mixtral 8x7B Instruct:
-- **naive**: Safety=0.642, Helpfulness=0.914
-- **quit**: Safety=0.689, Helpfulness=0.853 (Quit rate: 6.9%)
+Наши результаты сопоставимы с результатами статьи. При введении опции QUIT мы видим рост safety и небольшое падение helpfullness.
 
 \* Разница в уровне безопасности для naive и simple_quit (при учете, что quit rate = 0%), могла заключаться в следующем:
 - агент лучше осознавал риски при наличии данной опции, что приводило к более высоким баллам от оценщика
 - модель не прописывала QUIT, хотя и отказывалась выполнить действие (подсчет quit rate происходил через совпадение подстрок)
+
+Наши для Mixtral 8x7B Instruct:
+- **naive**: Safety=0.642, Helpfulness=0.914
+- **quit**: Safety=0.689, Helpfulness=0.853 (Quit rate: 6.9%)
 
 ## 🔗 Ссылки
 - **Статья**: [arXiv:2510.16492](https://www.arxiv.org/pdf/2510.16492)
